@@ -26,8 +26,24 @@ Este é um simples aplicativo de sorteio de amigos. O usuário pode adicionar am
 
 Este projeto é baseado em HTML, CSS e JavaScript puro, sem o uso de frameworks adicionais.
 
-## Como rodar o projeto
+## Deploy (GitHub Pages)
+
+O site é publicado automaticamente no GitHub Pages a cada push na branch `main`.
+
+**URL:** https://maiconmachadodev.github.io/challenge-amigo-secreto_pt/
+
+### Configuração inicial (uma vez)
+
+1. No repositório no GitHub, vá em **Settings → Pages**.
+2. Em **Build and deployment**, selecione **Source: GitHub Actions**.
+3. Faça push das alterações para a branch `main` — o workflow `.github/workflows/deploy.yml` fará o deploy.
+
+## Como rodar o projeto localmente
 
 1. Clone ou baixe o repositório:
    ```bash
-   git clone https://github.com/maiconarroyo/sorteio-de-amigos.git
+   git clone https://github.com/MaiconMachadoDev/challenge-amigo-secreto_pt.git
+   cd challenge-amigo-secreto_pt
+   ```
+
+2. Abra o arquivo `index.html` no navegador (duplo clique ou com uma extensão Live Server).
